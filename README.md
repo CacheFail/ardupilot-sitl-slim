@@ -1,6 +1,6 @@
 # 🛸 Lightweight ArduPilot SITL Docker Image
 
-[![Docker Build and Publish](https://github.com/CacheFail/ardupilot-sitl-slim/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/CacheFail/ardupilot-sitl-slim/actions)
+[![Docker Build and Publish](https://github.com/CacheFail/ardupilot-sitl-slim/actions/workflows/docker-push.yml/badge.svg)](https://github.com/CacheFail/ardupilot-sitl-slim/actions)
 
 This repository provides a highly optimized **ArduPilot SITL (Copter 4.5.7)** Docker image. Using multi-stage builds and binary stripping, the image size has been reduced to **613MB**, making it ideal for CI/CD pipelines and fast local testing.
 
