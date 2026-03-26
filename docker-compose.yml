@@ -1,0 +1,10 @@
+services:
+  sitl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sitl-drone-simulator
+    tty: true
+    stdin_open: true
+    extra_hosts:
+    - "host.docker.internal:host-gateway"
